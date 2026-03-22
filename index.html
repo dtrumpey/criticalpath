@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Critical Path Podcast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="site-header-wrap">
+  <header class="site-header">
+    <a href="index.html" class="site-name">[Critical Path]</a>
+    <nav class="site-nav">
+      <a href="#field-notes">Field Notes</a>
+      <a href="#about">About</a>
+      <a href="#hosts">Hosts</a>
+    </nav>
+  </header>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-desc">Most systems don't fail because of a single decision. They fail when pressure reveals what they were never designed to handle.</p>
+      <p class="hero-desc">Critical Path is a podcast and writing project about the systems shaping the modern world, and what happens when those systems are put under pressure.</p>
+      <p class="hero-desc">Technology, policy (not politics), infrastructure, and the people who operate them.</p>
+    </div>
+    <div class="hero-video">
+<a class="video-link" href="https://www.youtube.com/watch?v=QAIOffTPTxQ" target="_blank" rel="noopener">
+        <span class="video-link-play">&#9654;</span>
+        <span class="video-link-text">Watch on YouTube</span>
+      </a>
+    </div>
+    </div>
+  </section>
+
+  <!-- FIELD NOTES -->
+  <section class="field-notes" id="field-notes">
+    <p class="section-label">Field Notes</p>
+    <p class="field-notes-sub">Thoughts on systems, what makes them work, why they fail, and the people behind them.</p>
+
+    <ul class="notes-list">
+
+      <li class="note-row">
+        <a href="field-note-systems-fluency.html" class="note-title">Systems Fluency</a>
+      </li>
+
+      <li class="note-row">
+        <a href="field-note-ai-working-modes.html" class="note-title">AI Working Modes</a>
+      </li>
+
+      <li class="note-row">
+        <a href="#" class="note-title">Leadership Under Load</a>
+      </li>
+
+      <li class="note-row">
+        <a href="#" class="note-title">Operator vs Manager</a>
+      </li>
+
+    </ul>
+  </section>
+
+<!-- HOSTS -->
+  <section class="hosts" id="hosts">
+    <p class="section-label">Hosts</p>
+    <ul class="hosts-list">
+      <li class="host-row">
+        <span class="host-name">David Trumpey</span>
+        <div class="host-bio">
+          <p>David Trumpey is a systems-minded operator and product builder focused on how complex systems behave under pressure.</p>
+          <div class="host-bio-expanded">
+            <p>His work spans strategy, design, product, and execution, shaping a practical understanding of how work actually happens, where decisions break down, and why systems fail in ways no one planned for.</p>
+            <p>He now focuses on applying AI to real workflows, using it to redesign how work gets done. Moving from experimentation to implementation requires structure, not prompts, and clear thinking, not just capability.</p>
+            <p>Critical Path reflects that lens. Systems, constraints, and the people responsible for making them hold when it matters.</p>
+          </div>
+          <button class="bio-toggle" onclick="toggleBio(this)">Read more</button>
+        </div>
+      </li>
+      <li class="host-row">
+        <span class="host-name">Jason Kelly</span>
+        <span class="host-bio">TBD</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>Have an idea or want to be a guest? <a href="mailto:hello@criticalpathpodcast.com">Email us →</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
